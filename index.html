@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guild Team Builder</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="login">
+  <h2>Enter Player Name</h2>
+  <input id="playerName" placeholder="Your Name">
+  <button onclick="start()">Start</button>
+</div>
+
+<div id="app" class="hidden">
+  <div class="topbar">
+    <span id="playerLabel"></span>
+    <select id="mode" onchange="changeMode()">
+      <option value="3">Team 3</option>
+      <option value="5">Team 5</option>
+    </select>
+  </div>
+
+  <div class="container">
+    <div id="chars" class="characters"></div>
+
+    <div class="right">
+      <h3>Formation</h3>
+      <div id="formation" class="formation"></div>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

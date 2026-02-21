@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Hero A",
+    "power": 1200,
+    "image": "img/char1.png"
+  },
+  {
+    "id": 2,
+    "name": "Hero B",
+    "power": 1500,
+    "image": "img/char2.png"
+  },
+  {
+    "id": 3,
+    "name": "Hero C",
+    "power": 1800,
+    "image": "img/char3.png"
+  }
+]
